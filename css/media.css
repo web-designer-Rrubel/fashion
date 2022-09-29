@@ -1,0 +1,511 @@
+/* Extra small  */
+@media (max-width: 575.98px) { 
+    .slider_section {
+       
+        padding-top: 35px;
+       
+       
+        height: 390px;
+   
+        position: relative;
+    }
+    .colection h1 {
+        font-size: 35px;
+        
+    }
+
+    .slideer {
+      padding-left: 250px;
+    }
+    .slider_left_items {
+        margin-left: -10px;
+    }
+    .special_offer {
+       
+        visibility: hidden;
+    }
+    .special_info {
+         visibility: hidden;
+    }
+    .vintag_text {
+       
+        margin-top: 15px;
+    }
+
+    .jaket_text {
+        margin-top: 15px;
+    }
+    
+    .feature_product img {
+        
+        margin-top: 15px;
+    }
+    .feature_product {
+        
+        margin-left: 15px;
+    }
+
+    .feature_prod-1 h4,.feature_prod-2 h4,.feature_prod-3 h4,.feature_prod-4 h4{
+        text-align: center;
+     }
+     
+     
+     .feature_prod-1 h6,.feature_prod-2 h6,.feature_prod-3 h6,.feature_prod-4 h6{
+         text-align: center;
+     }
+     
+     .feature_prod-1 p,.feature_prod-2 p,.feature_prod-3 p,.feature_prod-4 p{
+        text-align: center;
+     }
+    .footer {
+        
+        text-align: center;
+    }
+
+
+
+
+
+
+ }
+
+
+/* Small devices */
+ @media (min-width: 576px) and (max-width: 767.98px) { 
+    .slideer {
+        margin-left: -163px;
+        width: 658px;
+    }
+
+    .navbar-light .navbar-toggler {
+        border-color: #d9d9d900;
+    }
+    button:focus {
+        outline: 0px dotted;
+        outline: 0px;
+    }
+    .slider_section {
+        padding-top: 20px;
+        height: 336px;
+    }
+    .colection,.slider_left_items {
+        margin-left: 420px;
+    }
+    .colection h6{
+        margin-left: 7px;
+    }
+    .colection h1 {
+        font-size: 25px;
+        margin-left: 10px;
+    }
+    .slider_icon {
+        margin-bottom: 0px;
+        margin-top: 10px;
+        
+    }
+    .slider_text p {
+        font-family: 'Open Sans', sans-serif;
+        margin-top: 15px;
+        color: #000;
+        
+    }
+    .special_offer {
+        visibility: hidden;
+    }
+    .special_info {
+        visibility: hidden;
+    }
+    .vintage {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .offer_info h3 {
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+    .offer_info p {
+        font-size: 10px;
+        letter-spacing: 1px;
+    }
+
+    .offer_info button {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 11px;
+        font-weight: 400;
+        padding: 15px;
+        border-radius: 30px;
+        border-style: none;
+        width: 180px;
+    }
+    .feature_product img {
+        width: 100%;
+        margin-left: -15px;
+        margin-top: 15px;
+    }
+    .feature_prod-1 h4,.feature_prod-2 h4,.feature_prod-3 h4,.feature_prod-4 h4{
+       text-align: center;
+    }
+    
+    
+    .feature_prod-1 h6,.feature_prod-2 h6,.feature_prod-3 h6,.feature_prod-4 h6{
+        text-align: center;
+    }
+    
+    .feature_prod-1 p,.feature_prod-2 p,.feature_prod-3 p,.feature_prod-4 p{
+       text-align: center;
+    }
+    .offer_baner {
+       height: 125px;
+    }
+    .offer_info {
+        margin-left: 150px;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .show_more {
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+    .sub_baner {
+        background-image: url('../images/subscribe-img.jpg');
+        width: 100%;
+       height: 150px;
+    }
+    .subscrib_info h3 {
+        font-size: 14px;
+        letter-spacing: 0px;
+    }
+    .subscrib_info p {
+        font-size: 10px;
+        letter-spacing: 1px;
+    }
+    .subscrib_info button {
+        font-size: 12px;
+        width: 130px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .subscrib_info {
+        margin-right: 150px;
+        margin-top: 20px;
+    }
+    .footer_left,.footer_right {
+        text-align: center;
+    }
+    .footer_area p {
+        text-align: center;
+    }
+ }
+
+
+/* Medium devices */
+ @media (min-width: 768px) and (max-width: 991.98px) { 
+
+    .navbar-light .navbar-toggler {
+        border-color: #d9d9d900;
+    }
+    button:focus {
+        outline: 0px dotted;
+        outline: 0px;
+    }
+    .slider_section {
+        height: 415px;
+        padding-top: 45px;
+    }
+    .colection h1 {
+        font-size: 40px;
+        
+    }
+    .colection h6 {
+        font-size: 12px;
+    }
+    .slider_icon {
+        font-size: 14px;
+    }
+    .slider_text p {
+        margin-top: 15px;
+        font-size: 18px;
+    }
+    .slider_left_items p {
+        font-size: 12px;
+        text-align: justify;
+        width: 270px;
+    }
+    .special_offer {
+        visibility: hidden;
+    }
+    .special_info {
+        visibility: hidden;
+    }
+    .special_offer img {
+       height: 299px;
+    }
+    span {
+       
+        margin-left: 7px;
+    }
+    .timer {
+        margin-top: 5px;
+    }
+    .shoe {
+        width: 200px;
+        height: 225px;
+    }
+    .shoe_text {
+        padding-top: 180px;
+        text-align: center;
+    }
+    .shoe_text h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    }
+    .vintage {
+        width: 240px;
+        margin-left: -20px;
+        height: 397px;
+    }
+    .shoes img {
+        width: 100%;
+        margin-top: 10px;
+        height: 162px;
+    }
+    .vintag_text {
+         padding-top: 155px;
+        text-align: center;
+    }
+    .jaket_men {
+        background-image: url('../images/all-baner-img-04.jpg');
+        width: 201px;
+        height: 235px;
+        
+    }
+    .jaket_men {
+        width: 201px;
+        height: 215px;
+    }
+    .jaket_text {
+        padding-top: 40px;
+        margin-left: 15px;
+    }
+    .jaket_text h4{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 15px;
+    }
+    .jaket_text p {
+        font-family: 'Raleway', sans-serif;
+        font-size: 11px;
+        font-weight: 500;
+    }
+     .jaket_text button {
+        width: 95px;
+        margin-top: 15px;
+    }
+    .men_sunglass {
+       height: 170px;
+        margin-top: 12px;
+    }
+    .men_sunglass p {
+         padding-top: 140px;
+    }
+    .offer_info h3 {
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+    .offer_info p {
+        font-size: 12px;
+        letter-spacing: 2px;
+    }
+    .offer_info button {
+        font-size: 11px;      
+        width: 200px;
+    }
+    .subscrib_info h3 {
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+    .subscrib_info p {
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+    .subscrib_info button {
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    .feature_product img {
+        width: 225px;
+      
+    }
+    .feature_prod-1 img {
+        width: 160px;
+        height: 290px;
+        
+    }
+    .feature_prod-1 h4, .feature_prod-2 h4, .feature_prod-3 h4, .feature_prod-4 h4 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 15px;
+        padding-left: 0px;
+        padding-top: 30px;
+    }
+    
+      
+      .feature_prod-2 img{
+        width: 160px;
+        height: 290px;
+        margin-left: -15px;
+          
+      }
+      .feature_prod-3 img{
+        width: 175px;
+        height: 290px;
+        margin-left: -10px;
+      }
+      .feature_prod-4 img{
+        width: 160px;
+        height: 290px;
+        margin-left: 10px;
+      }
+      .feature_prod-1 h6, .feature_prod-2 h6, .feature_prod-3 h6 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        padding-left: 0;
+    }
+    .feature_prod-4 h4{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 15px;
+        padding-left: 10px;
+        padding-top: 30px;
+    }
+    .feature_prod-4 h6{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        padding-left:10px;
+    }
+    .feature_prod-4 p{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 15px;
+        padding-left:0px;
+    }
+    .footer_right {
+        text-align: center;
+    }
+    .footer_right h4 {
+        font-size: 17px;
+        text-transform: uppercase;
+        font-family: 'IM Fell Great Primer SC', serif;
+        font-weight: 400;
+        letter-spacing: 1px;
+        padding-top: 20px;
+       
+    }
+    .blog_text {
+         width: 290px;
+        margin-left: 0px;
+    }
+    .blog_product img {
+             width: 93%;
+            text-align: center;
+        }
+        
+    
+    .blog_text h4 {
+        font-size: 11px;
+        padding-top: 15px;
+        margin-left: 0px;
+    }
+    .blog_text p{
+     font-size: 12px;
+       margin-left: 0px;
+   }
+    /* .header_item h2 {
+        font-size: 120px;
+    }
+    .section {
+        padding-top: 190px;
+        padding-bottom: 180px;
+    }
+    .ab_heading p {
+        margin-bottom: 50px;
+    }
+    .ab_overly_item h4 {
+        font-size: 15px;
+    }
+    #ab_section {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .countdown {
+        margin-bottom: 60px;
+    }
+    .service_info_item {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .service_item_dec h4 {
+        margin-top: 10px;
+    }
+    .service {
+        margin-bottom: 50px;
+    }
+    .inbox_text p {
+        font-size: 20px;
+    }
+    #inbox {
+        margin-bottom: 60px;
+    }
+    .team_icon i {
+        font-size: 20px;
+        padding: 10px 10px;
+    }
+    .team_dec {
+        margin-top: 10px;
+    }
+    .team_heading p {
+        margin-bottom: 40px;
+    }
+    #team {
+        padding-bottom: 50px;
+    }
+    .gellery_item h4 {
+        font-size: 8px;
+    }
+    .gellery_item p {
+        font-size: 9px;
+    }
+    #gellery {
+        margin-bottom: 50px;
+    }
+    .gellery_medil h4 {
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    .g_m_text h5 {
+        margin-top: 10px;
+    }
+    .gellery_right h4 {
+        margin-bottom: 15px;
+        margin-top: 15px;
+    } */
+
+
+
+
+
+
+
+
+
+
+
+  }
+
+

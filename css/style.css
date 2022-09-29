@@ -1,0 +1,598 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    
+}
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+/* naber css start */
+.header_section {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+    border-bottom: 3px solid rgb(232, 232, 5);
+    padding-bottom: 0px;
+    
+}
+
+
+.nave{
+    margin-left: 145px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: hsl(0, 5%, 4%);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    
+    align-items: center;
+}
+li.nav-item,span {
+    margin: 5px 20px;
+    position: relative;
+}
+
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    width: 100%;
+    color: black;
+}
+.header_icon,.slider_icon{
+    display: flex;
+  
+}
+.slider_icon{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.header_icon a,.slider_left_items a{
+    color: #000;
+  
+}
+.cart_icon{
+    margin-right: 25px;
+}
+.search_icon{
+    margin-right: 25px;
+   
+}
+/* naber css end */
+
+/* header img css start */
+.slider_section{
+
+margin-left: 0px;
+margin-right: 0px;
+}
+.slider_section{
+    background-image: url('../images/fashon-slide-img.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 140px;
+    padding-bottom: 250px;
+    position: absolute;
+    height: 800px;
+    width: 100%;
+   position: relative;
+}
+.special_offer{
+   
+    background-image: url('../images/bg-img.png');
+    width: 380px;
+    height: 372px;
+    margin-top: 63px;
+    
+}
+
+
+.slider_text p{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 50px;
+   color: #000;
+   font-size: 20px;
+   
+   
+}
+.slider_icon {
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+.buy{
+    background-color: #000;
+    border-radius: 18px;
+    color: white;
+    padding: 10px;
+    width: 150px;
+    margin-top: 25px;
+}
+.special_offer img {
+    width: 135px;
+    height: 372px;
+}
+.special_info{
+    color: white;
+    display: inline-block;
+    margin-left: -30px;
+}
+.special_info strong{
+    font-size: 20px;
+    margin-left: 0px;
+
+}
+.special_info h2{
+    text-transform: uppercase;
+    margin-top: 100px;
+    font-size: 26px;
+    
+}
+span{
+    margin-right: 10px;
+    margin-left: 5px;
+}
+h6{
+    font-size: 14px;
+}
+.colection h1{
+    font-size: 80px;
+    text-transform: uppercase;
+    font-family: 'IM Fell Great Primer SC', serif;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.shop{
+    border-radius: 30px;
+    padding: 7px;
+    width: 100px;
+    margin-bottom: 20px;
+}
+.timer{
+    margin-top: 20px;
+}
+.hour,.minutes{
+    border-radius: 10px;
+    width: 70px;
+    height: 80px;
+   
+    text-align: center;
+}
+.second{
+    border-radius: 10px;
+    width: 70px;
+    height: 80px;
+}
+.hour span,.minutes span,.second span{
+    font-size: 14px;
+    
+    
+}
+.hour h5,.minutes h5,.second h5{
+  font-size: 30px;
+  text-align: center;
+}
+.slider_left_items p{
+    font-size: 9px;
+    text-align: justify;
+    width: 200px;
+}
+.slide{
+    margin-right: -15px;
+    display: flex;
+}
+.product_list h2{
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 26px;
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+.product_list ul{
+    display: flex;
+    justify-content: center;
+
+}
+.product_list ul li{
+    list-style: none;
+    text-decoration: none;
+    margin-right: 15px;
+    padding: 15px;
+    
+}
+
+.product_list ul li a{
+    color: #000;
+    text-decoration: none;
+   
+}
+
+
+
+.shoe{
+    background-image: url('../images/all-baner-img-01.jpg');
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.shoes img{
+    width: 100%;
+}
+
+.shoe_text {
+    padding-top: 242px;
+    text-align: center;
+}
+.shoe_text h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    }
+.vintage {
+    background-image: url('../images/all-baner-img-03.jpg');
+    width: 100%;
+    height: 464px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.vintag_text h4,.jaket_text h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+.vintag_text p,.jaket_text p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+}
+.vintag_text{
+    padding-left: 50px;
+    padding-top: 155px;
+}
+.vintag_text button,.jaket_text button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 8px;
+    font-weight: 400;
+    background-color: #000;
+    padding: 15px;
+    color: white;
+    border-radius: 30px;
+    border-style: none;
+    width: 125px;
+    margin-top: 25px;
+}
+.jaket_text {
+    padding-top: 60px;
+    margin-left: 25px;
+}
+.jaket_men{
+    background-image: url('../images/all-baner-img-04.jpg');
+   width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.men_sunglass {
+    background-image: url('../images/all-baner-img-05.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin-top: 10px;
+    height: 239px;
+}
+.men_sunglass p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 185px;
+}
+
+.offer_baner{
+    background-image: url('../images/all-baner-img-06.jpg');
+    width: 100%;
+    margin-top: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+
+.offer_info {
+   
+    text-align: center;
+    margin-top: 50px;
+}
+.offer_info h3{
+    font-size: 21px;
+    text-transform: uppercase;
+    font-family: 'IM Fell Great Primer SC', serif;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+.offer_info p{
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: 'IM Fell Great Primer SC', serif;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+.offer_info button{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 15px;
+    border-radius: 30px;
+    border-style: none;
+    width: 240px;
+}
+.product_info {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.product_info h2{
+    font-size: 26px;
+    text-transform: uppercase;
+    font-family: 'IM Fell Great Primer SC', serif;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+.
+.product_info p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.feature_product {
+    position: relative;
+}
+.feature_product img{
+    width: 100%;
+    margin-left: -15px;
+}
+.feature_product .btn{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    background-color: #000;
+    color: white;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.feature_info  h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+
+.feature_prod-1 img{
+   width: 100%;
+  margin-left: -15px;
+    
+}
+
+.feature_prod-2 img,.feature_prod-3 img{
+    width: 100%;
+    margin-left: -15px;
+    
+}
+.feature_prod-4 img{
+    width: 100%;
+    margin-left: -15px;
+    
+}
+.feature_prod-1 h4,.feature_prod-2 h4,.feature_prod-3 h4,.feature_prod-4 h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+
+.feature_prod-1 h6,.feature_prod-2 h6,.feature_prod-3 h6,.feature_prod-4 h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+.feature_prod-1 p,.feature_prod-2 p,.feature_prod-3 p,.feature_prod-4 p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+}
+.feature_prod-1 span,.feature_prod-2 span,.feature_prod-3 span,.feature_prod-4 span{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    text-decoration: line-through;
+}
+.show_more{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+.show_more button{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    border-radius: 70px;
+    padding: 15px;
+    width: 150px;
+    border: 2px solid;
+   
+}
+
+.sub_baner{
+    background-image: url('../images/subscribe-img.jpg');
+   width: 98%;
+    margin-top: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.subscrib_info {
+   
+    text-align: center;
+    margin-top: 50px;
+}
+.subscrib_info h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'IM Fell Great Primer SC', serif;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+.subscrib_info p{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'IM Fell Great Primer SC', serif;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+.subscrib_info button{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 15px;
+    border-radius: 30px;
+    border-style: none;
+    width: 150px;
+    background-color: #000;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.blog h2{
+    font-size: 26px;
+    text-transform: uppercase;
+    font-family: 'IM Fell Great Primer SC', serif;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.blog_product {
+ 
+    margin-bottom: 100px;
+}
+.blog_product img{
+    width: 93%;
+    
+}
+.blog_text {
+    text-align: center;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    width: 400px;
+    display: block;
+    
+}
+.blog_text h4 {
+    font-size: 17px;
+    text-transform: uppercase;
+    font-family: 'IM Fell Great Primer SC', serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding-top: 20px;
+   
+}
+.footer_section{
+    background-color: #F8F8F8;
+    margin-top: -170px;
+}
+.footer{
+    margin-left: 40px;
+    padding-top: 200px;
+}
+.footer_left h4{
+    color: #000;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+.footer_left ul li{
+    list-style: none;
+    text-decoration: none;
+    margin-right: 10px;
+    
+    
+}
+
+.footer_left ul li a{
+    color: #000;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+.footer_right h4{
+    color: #000;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+.address p,.addres p{
+    color: #000;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+.address strong,.addres strong{
+    color: #000;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+.footer_area {
+    text-align: center;
+}
+.footer_area p{
+    color: #000;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    padding-top: 30px;
+}
+
+.footer_area img{
+    padding-bottom: 40px;
+}
+
+
+
+
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;*/
